@@ -1,7 +1,7 @@
 def myderive(f, var):
-    if(type(f) == int or type(f) == float):
+    if type(f) is int or type(f) is float:
         return 0
-    elif(type(f) == str):
+    elif type(f) is str:
         if(f == var):
             return 1
         else:
